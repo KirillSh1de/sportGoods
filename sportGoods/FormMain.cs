@@ -7,9 +7,13 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace sportGoods {
-	public partial class Form1 : Form {
-		public Form1() {
+	public partial class FormMain : Form {
+		public FormMain() {
 			InitializeComponent();
+		}
+
+		private void btnLogout_Click(object sender, EventArgs e) {
+
 		}
 	}
 }
