@@ -27,7 +27,7 @@
 			label1 = new Label();
 			btnLogout = new Button();
 			dataGridView1 = new DataGridView();
-			button1 = new Button();
+			this.btnOrders = new Button();
 			button2 = new Button();
 			panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -73,14 +73,14 @@
 			dataGridView1.Size = new Size(410, 281);
 			dataGridView1.TabIndex = 1;
 			// 
-			// button1
+			// btnOrders
 			// 
-			button1.Location = new Point(12, 145);
-			button1.Name = "button1";
-			button1.Size = new Size(140, 84);
-			button1.TabIndex = 2;
-			button1.Text = "button1";
-			button1.UseVisualStyleBackColor = true;
+			this.btnOrders.Location = new Point(12, 145);
+			this.btnOrders.Name = "btnOrders";
+			this.btnOrders.Size = new Size(140, 84);
+			this.btnOrders.TabIndex = 2;
+			this.btnOrders.Text = "Заказы";
+			this.btnOrders.UseVisualStyleBackColor = true;
 			// 
 			// button2
 			// 
@@ -88,7 +88,7 @@
 			button2.Name = "button2";
 			button2.Size = new Size(140, 84);
 			button2.TabIndex = 3;
-			button2.Text = "button2";
+			button2.Text = "Продукты";
 			button2.UseVisualStyleBackColor = true;
 			// 
 			// FormMain
@@ -98,7 +98,7 @@
 			BackColor = Color.White;
 			ClientSize = new Size(410, 341);
 			Controls.Add(button2);
-			Controls.Add(button1);
+			Controls.Add(this.btnOrders);
 			Controls.Add(dataGridView1);
 			Controls.Add(panel1);
 			Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
