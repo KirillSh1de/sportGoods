@@ -27,8 +27,8 @@
 			label1 = new Label();
 			btnLogout = new Button();
 			dataGridView1 = new DataGridView();
-			this.btnOrders = new Button();
-			button2 = new Button();
+			btn_Product = new Button();
+			btn_Order = new Button();
 			panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
 			SuspendLayout();
@@ -60,7 +60,6 @@
 			btnLogout.TabIndex = 0;
 			btnLogout.Text = "Выход";
 			btnLogout.UseVisualStyleBackColor = true;
-			btnLogout.Click += btnLogout_Click;
 			// 
 			// dataGridView1
 			// 
@@ -73,23 +72,23 @@
 			dataGridView1.Size = new Size(410, 281);
 			dataGridView1.TabIndex = 1;
 			// 
-			// btnOrders
+			// btn_Product
 			// 
-			this.btnOrders.Location = new Point(12, 145);
-			this.btnOrders.Name = "btnOrders";
-			this.btnOrders.Size = new Size(140, 84);
-			this.btnOrders.TabIndex = 2;
-			this.btnOrders.Text = "Заказы";
-			this.btnOrders.UseVisualStyleBackColor = true;
+			btn_Product.Location = new Point(258, 145);
+			btn_Product.Name = "btn_Product";
+			btn_Product.Size = new Size(140, 84);
+			btn_Product.TabIndex = 3;
+			btn_Product.Text = "Продукты";
+			btn_Product.UseVisualStyleBackColor = true;
 			// 
-			// button2
+			// btn_Order
 			// 
-			button2.Location = new Point(258, 145);
-			button2.Name = "button2";
-			button2.Size = new Size(140, 84);
-			button2.TabIndex = 3;
-			button2.Text = "Продукты";
-			button2.UseVisualStyleBackColor = true;
+			btn_Order.Location = new Point(14, 145);
+			btn_Order.Name = "btn_Order";
+			btn_Order.Size = new Size(140, 84);
+			btn_Order.TabIndex = 4;
+			btn_Order.Text = "Заказы";
+			btn_Order.UseVisualStyleBackColor = true;
 			// 
 			// FormMain
 			// 
@@ -97,8 +96,8 @@
 			AutoScaleMode = AutoScaleMode.Font;
 			BackColor = Color.White;
 			ClientSize = new Size(410, 341);
-			Controls.Add(button2);
-			Controls.Add(this.btnOrders);
+			Controls.Add(btn_Order);
+			Controls.Add(btn_Product);
 			Controls.Add(dataGridView1);
 			Controls.Add(panel1);
 			Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
@@ -118,6 +117,7 @@
 		private Button btnLogout;
 		private Label label1;
 		private Button button1;
-		private Button button2;
+		private Button btn_Product;
+		private Button btn_Order;
 	}
 }

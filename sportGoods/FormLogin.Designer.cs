@@ -100,6 +100,7 @@
 			btn_log_guest.TabIndex = 1;
 			btn_log_guest.Text = "ВОЙТИ КАК ГОСТЬ";
 			btn_log_guest.UseVisualStyleBackColor = true;
+			btn_log_guest.Click += btn_log_guest_Click_1;
 			// 
 			// btn_log
 			// 
@@ -110,6 +111,7 @@
 			btn_log.TabIndex = 0;
 			btn_log.Text = "ВОЙТИ";
 			btn_log.UseVisualStyleBackColor = true;
+			btn_log.Click += btn_log_Click_1;
 			// 
 			// FormLogin
 			// 
